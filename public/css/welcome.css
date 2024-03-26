@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-image: url('../images/DENTAL.jpeg');
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.box {
+    width: 400px;
+    height: 300px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: rgba(101, 180, 206, 0.682); /* Transparent white background */
+}
+.welcome-msg {
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #15293f;
+}
+.btn {
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px;
+}
+.btn-login {
+    background-color:#15293f;
+    color: #fff;
+    text-decoration: none;
+}
+.btn-signup {
+    background-color: #15293f;
+    color: #fff;
+    text-decoration: none;
+}
+ a{
+    text-decoration: none;
+    color:white ;
+ }
+.btn-login:hover,
+.btn-signup:hover {
+    background-color: #4873a0;
+}

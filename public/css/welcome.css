@@ -13,12 +13,10 @@ body {
     height: 100vh;
 }
 .box {
-    width: 400px;
+    width: 500px;
     height: 300px;
-    border: 2px solid #ccc;
-    border-radius: 10px;
     padding: 20px;
-    background-color: rgba(101, 180, 206, 0.682); /* Transparent white background */
+    background-color: rgba(139, 139, 139, 0.682); /* Transparent white background */
 }
 .welcome-msg {
     font-size: 30px;
@@ -34,12 +32,12 @@ body {
     margin: 10px;
 }
 .btn-login {
-    background-color:#15293f;
+    background-color: #343a40;
     color: #fff;
     text-decoration: none;
 }
 .btn-signup {
-    background-color: #15293f;
+    background-color: #343a40;
     color: #fff;
     text-decoration: none;
 }
@@ -49,5 +47,5 @@ body {
  }
 .btn-login:hover,
 .btn-signup:hover {
-    background-color: #4873a0;
+    background-color: #15293f;
 }

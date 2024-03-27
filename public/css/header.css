@@ -1,4 +1,4 @@
-ul {
+/* ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -20,4 +20,19 @@ ul {
   
   li a:hover {
     background-color: #111;
+  } */
+
+  .navbar-custom {
+    background-color: #343a40; /* Dark background color */
   }
+  .navbar-brand-custom {
+    color: #ffffff; /* White text color */
+    font-weight: bold;
+  }
+  .nav-link-custom {
+    color: #ffffff !important; /* White text color */
+  }
+  .nav-link-custom:hover {
+    color: #ffc107 !important; /* Yellow text color on hover */
+  }
+  

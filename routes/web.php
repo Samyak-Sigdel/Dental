@@ -19,6 +19,7 @@ use Illuminate\Support\Facades\Route;
     })->name('home');
 
 
+
     Route::get('/login', [AuthManager::class, 'login'])->name('login');
     Route::post('/login', [AuthManager::class, 'loginPost'])->name('login.post');
 
@@ -29,3 +30,8 @@ use Illuminate\Support\Facades\Route;
     Route::get('/logout',[AuthManager::class,''])->name(name:'logout');
 
     Route::get('/home', [AuthManager::class, 'home'])->middleware('auth')->name('home');
+
+    Route::get('/services', [AuthManager::class, 'services'])->name('services');
+    Route::get('/about', [AuthManager::class, 'about'])->name('about');
+
+   

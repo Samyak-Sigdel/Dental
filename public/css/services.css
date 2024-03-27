@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+
+  .contain{
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 30px;
+    display: flex; /* Add this line */
+    flex-direction: column; /* Align containers vertically */
+
+  }
+  .service {
+display: flex; /* Use Flexbox */
+background-color: #ffffff; /* Set background color */
+padding: 20px; /* Add padding for content */
+margin-bottom: 20px; /* Add margin for spacing */
+}
+
+.service img {
+width: auto; /* Adjust image width as needed */
+height: auto; /* Maintain aspect ratio */
+margin-right: 20px; /* Add margin for spacing between image and text */
+}
+
+/* Additional styling for text inside .service */
+.service .text h2 {
+color: #333333; /* Set heading color */
+margin-bottom: 10px; /* Add margin for spacing */
+text-align: left;
+}
+
+.service .text p {
+color: #666666; /* Set paragraph color */
+}
+
+  .service img {
+    max-width: 200px;
+    height: 200px;
+    margin-right: 20px;
+  }
+
+  .text {
+    flex-grow: 1;
+    padding: 30px;
+    font-size: medium;
+    color: #ffffff;
+  }
+
+  .text h2 {
+    margin-top: 0;
+  }
+
+  @media screen and (max-width: 768px) {
+    .service {
+      width: 100%;
+    }
+  }
+
+/* Move image to the right for even service */
+.service:nth-child(even) .text {
+order: 2;
+margin-left: 20px; /* Add margin to separate image and text */
+}
+
+/* Keep image on the left for odd service */
+.service:nth-child(odd) img {
+order: 1;
+margin-right: 20px; /* Reset margin for odd service */
+}
